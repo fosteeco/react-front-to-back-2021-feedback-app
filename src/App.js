@@ -23,10 +23,7 @@ function App() {
 
   return (
     <div classname="container">
-      <h1>{title} </h1>
-      <p>{body} </p>
-      {showComments && commentBlock}
-      <p>{Math.random() * (5 + 5)} </p>
+      <h1>My App</h1>
     </div>
   );
 }
