@@ -6,6 +6,7 @@ import FeedbackStats from "./components/FeedbackStats";
 import FeedbackData from "./data/FeedbackData";
 import FeedbackForm from "./components/FeedbackForm";
 import AboutPage from "./pages/AboutPage";
+import AboutIconLink from "./components/AboutIconLink";
 import { v4 as uuidv4 } from "uuid";
 
 function App() {
@@ -44,6 +45,7 @@ function App() {
           ></Route>
           <Route path="/about" element={<AboutPage />} />
         </Routes>
+        <AboutIconLink />
       </div>
     </Router>
   );
